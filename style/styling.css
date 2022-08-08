@@ -89,7 +89,115 @@ button{
 .logo{
     margin-left: 10em;
     margin-right: 10em;
+    margin-bottom: 5em;
     max-width: 100%;
     display: flex;
     justify-content: space-between;
 }
+
+.portfolio{
+    margin-left: 10em;
+    margin-right: 10em;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5em;
+}
+
+.portimg1{
+    width: 47em;
+    height: 25em;
+    background-image: url(/img/Spense.png);
+}
+
+.portimg2{
+    width: 47em;
+    height: 25em;
+    background-image: url(/img/YelpCamp.png);
+}
+
+.port1 h1, .port2 h1{
+    font-family: 'Prata', serif;
+    font-size: 3em;
+    font-weight: 100;
+    margin-top: 0.5em;
+    color: white;
+    margin-bottom: 0.5em;
+}
+
+.port1 p{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6em;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    max-width: 30em;
+    color: rgb(168, 168, 168);
+}
+
+.port2 p{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6em;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    max-width: 30em;
+    color: rgb(168, 168, 168);
+}
+
+.about{
+    background-color: rgb(56, 66, 73);
+    width: 100%;
+    height: 30em;
+    margin: auto;
+    padding-top: 5em;
+}
+
+.aboutcontent{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.leftpara{
+    margin-left: 10em;
+}
+
+.rightpara{
+    margin-right: 10em;
+}
+
+.cta{
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+    height: 30em;
+    margin: auto;
+    padding-top: 5em;
+}
+
+
+.ctacontent h1{
+    font-family: 'Prata', serif;
+    font-size: 3em;
+    font-weight: 100;
+    color: white;
+    
+}
+
+.ctacontent p{
+    color: rgb(168, 168, 168);
+    max-width: 28em;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6em;
+    line-height: 1.6;    
+}
+
+.ctacontent, .ctabutton{
+    margin-left: 10em;
+    margin-top: 2em;
+}
+
+.footer{
+    width: 100%;
+    height: 5em;
+    background-color: rgb(56, 66, 73);
+}
+

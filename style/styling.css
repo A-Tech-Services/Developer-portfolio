@@ -246,6 +246,6 @@ button:hover{
     height: 5em;
     background-color: rgb(56, 66, 73);
     display: flex;
-    
+    justify-content: space-between;
 }
 
